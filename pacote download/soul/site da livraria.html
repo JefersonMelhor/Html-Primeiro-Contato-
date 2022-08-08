@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+  <title>LivrarySoul</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:Verdana,Geneva,Tahoma,sans-serif ;
+    }
+    .center{
+      display: flex;
+      flex-wrap: wrap;
+      mad-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2%;
+
+    }
+    html,body{
+      height: 100%;
+      overflow-y:hidden ;
+      overflow-x:hidden ;
+    }
+    header{
+      height: 200px;
+      padding: 20px 0;
+    }
+
+    .logo{
+      width: 50%;
+    }
+    .menu{
+      width: 50%;
+      text-align: right; 
+      margin-top:25px;
+      
+    }
+    .menu a{
+      padding:px ;
+      color: black;
+      text-decoration: none;
+      font-weight: bolder;
+      margin-right: 15px;
+      background:SaddleBrown ;
+      border-radius: 15px ;
+    }
+    section.sobre{
+      height:calc(100% - 200px) ;
+      position: relative;
+    }
+    .extras{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width:550px ;
+      height:450px ;
+      border-radius:100% 0% 0% 0%;
+      background:SaddleBrown;
+    }
+    .social-midia{
+      position: absolute;
+      top: 10px;
+      right: 0px;
+    }
+    .social-midia img{
+      display: block;
+      margin: 15px 0;
+    }
+    .texto-sobre{
+      margin-top:30px;
+    }
+    .texto-sobre h1{
+      font-size: 60px;
+
+    }
+    .texto-sobre h4{
+      fontsize: 200px;
+    }
+  </style>
+</head>
+  
+<body>
+
+    <header>
+      
+      <div class="center">
+        <div class="logo"><img src="img\logo2.1.jpg"width="180"height="150" alt="logo"/></div><!--logo-->
+        <div class="menu">
+          <ul>
+          <a href="#" >home</a>
+          <a href="#">about</a>
+          <a href="#">menu</a>
+          <a href="#">top10</a>
+          </ul>     
+        </div><!--menu-->      
+      </div><!--center-->
+    </header>
+    <section class="sobre">
+      <div class="extras">
+        <img src="img\desenho1.png"/>
+        <div class="social-midia">
+          <a href=""><img src="img\inst.png" width="70"height="40"/></a>
+          <a href=""><img src="img\tw.png" width="70"height="40"/></a>
+          <a href=""><img src="img\face.png" width="70"height="40"/></a>
+        </div>
+      </div> <!--extras-->  
+      <div class="center">
+        <div class="texto-sobre">
+          <h1><span style="color:SaddleBrown ">De fã para fã</span></h1>
+          <h4><span style="color:SaddleBrown">viver sem ler é perigoso.<br/>te obriga a crer no que te dizem.</span></h4>
+    </section>
+</body>
+
+</html>
